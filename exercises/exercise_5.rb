@@ -10,3 +10,5 @@ puts "----------"
 # Your code goes here ...
 
 pp Store.sum("annual_revenue")
+
+pp Store.average("annual_revenue")
