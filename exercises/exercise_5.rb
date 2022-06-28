@@ -12,3 +12,5 @@ puts "----------"
 pp Store.sum("annual_revenue")
 
 pp Store.average("annual_revenue")
+
+pp Store.where("annual_revenue > ?", 1000000).count
