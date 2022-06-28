@@ -8,3 +8,5 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+pp Store.sum("annual_revenue")
